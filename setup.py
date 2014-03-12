@@ -5,8 +5,8 @@
 # pyutil -- utility functions and classes
 #
 # Author: Zooko Wilcox-O'Hearn
-#
-#  This file is part of pyutil; see `README.rst`_ for licensing terms.
+
+""" This file is part of pyutil; see `README.rst`_ for licensing terms. """
 
 import os, re, sys
 
