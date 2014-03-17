@@ -4,9 +4,7 @@
 
 # pyutil -- utility functions and classes
 #
-# Author: Zooko Wilcox-O'Hearn
-
-""" This file is part of pyutil; see `README.rst`_ for licensing terms. """
+# This file is part of pyutil; see README.rst for licensing terms.
 
 import os, re, sys
 
@@ -45,7 +43,7 @@ else:
         print "unable to find version in %s" % (VERSIONFILE,)
         raise RuntimeError("if %s.py exists, it must be well-formed" % (VERSIONFILE,))
 
-doc_fnames=[ 'COPYING.SPL.txt', 'COPYING.GPL', 'COPYING.TGPPL.html', 'README.rst', 'CREDITS' ]
+doc_fnames=[ 'COPYING.SPL.txt', 'COPYING.GPL', 'COPYING.TGPPL.rst', 'README.rst', 'CREDITS' ]
 
 # In case we are building for a .deb with stdeb's sdist_dsc command, we put the
 # docs in "share/doc/python-$PKG".

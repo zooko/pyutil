@@ -5,9 +5,7 @@ pyutil -- a library of useful Python functions and classes
 
 Many of these utilities (or their ancestors) were developed for the Mojo
 Nation, Mnet, Allmydata.com "Mountain View", Tahoe-LAFS, or SimpleGeo's
-products.  (In the case where the code was developed for a for-profit
-company, the copyright holder donated the pyutil code to the public under
-these open source licences.)
+products.
 
 
 utilities
@@ -74,8 +72,6 @@ I no longer use these and I don't recommend that you do either.
 - PickleSaver.py_ - make all or part of an object persistent, by saving it to
   disk when it's garbage collected
 - humanreadable.py_ - an improved version of the builtin repr() function
-- hashexpand.py_ - cryptographically strong pseudo-random number generator
-  based on SHA256
 - find_exe.py_ - try different paths in search of an executable
 - dictutil.py_ - several specialized dict extensions, as well as some
   convenient functions for working with dicts
@@ -174,7 +170,6 @@ the Simple Permissive Licence, version 1.
 .. _twistedutil.py: pyutil/twistedutil.py
 .. _PickleSaver.py: pyutil/PickleSaver.py
 .. _humanreadable.py: pyutil/humanreadable.py
-.. _hashexpand.py: pyutil/hashexpand.py
 .. _find_exe.py: pyutil/find_exe.py
 .. _dictutil.py: pyutil/dictutil.py
 .. _randutil.py: pyutil/randutil.py
