@@ -1,0 +1,5 @@
+include COPYING.GPL COPYING.TGPPL.rst COPYING.SPL.txt CREDITS README.rst
+include MANIFEST.in
+include versioneer.py
+
+graft pyutil
