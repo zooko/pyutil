@@ -58,9 +58,9 @@ def gen_passphrase(entropy, allwords):
     return (u".".join(passphrase), passphraseentropy)
 
 def main():
-    parser = argparse.ArgumentParser(prog="chbs", description="Create a random passphrase by picking a few random words.")
+    parser = argparse.ArgumentParser(prog="passphrase", description="Create a random passphrase by picking a few random words.")
 
-    parser.add_argument('-d', '--dictionary', help="what file to read a list of words from (or omit this option to use chbs's bundled dictionary)", type=argparse.FileType('rU'), metavar="DICT")
+    parser.add_argument('-d', '--dictionary', help="what file to read a list of words from (or omit this option to use passphrase's bundled dictionary)", type=argparse.FileType('rU'), metavar="DICT")
     parser.add_argument('bits', help="how many bits of entropy minimum", type=float, metavar="BITS")
     args = parser.parse_args()
 
